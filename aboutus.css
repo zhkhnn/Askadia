@@ -62,7 +62,9 @@ span {
 body {
     font-family: 'helvetica_ce_55_romanregular';
 }
-
+.first{
+padding: 25px 25px 1px 35px;
+}
 a.btn-down {
     height: 50px;
     width: 150px;

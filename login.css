@@ -58,6 +58,9 @@ body {
 *::after {
     box-sizing: border-box;
 }
+.first{
+    padding : 25px 25px 1px 35px;
+}
 
 #header section>div {
     display: table-cell;

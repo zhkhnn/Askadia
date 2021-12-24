@@ -44,3 +44,21 @@ var modal = document.getElementById('id01');
 //     modal.style.display = "none";
 //   }
 // }
+let burger = document.querySelector(".burger");
+burger.addEventListener('click', e => {
+    let display = document.querySelector("#mainav");
+    let margin = document.querySelector(".home");
+    let margin1 = document.querySelector(".container-xl");
+    console.log("ASFASF")
+    if (display.style.display !== 'none') {
+        display.style.display = 'none'
+        margin1.style.position = 'relative';
+        margin1.style.top = '0';
+        margin.style.marginTop = '0';
+    } else {
+        display.style.display = 'block'
+        margin1.style.position = 'relative';
+        margin1.style.top = '500px';
+        margin.style.marginTop = '500px';
+    }
+})

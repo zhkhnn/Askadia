@@ -339,7 +339,30 @@ footer .sub-footer p {
 }
 
 
+.btn {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    padding: 12px 30px;
+    font-size: regular;
+    font-weight: regular;
+    background-color: #8E9AAF;
+    color: white;
+    letter-spacing: 1.1px;
+    box-shadow: 0px 15px 40px rgba(44, 37, 51, 0.4);
+    border-radius: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    border: 1px solid #8E9AAF;
+    cursor: pointer;
+    transition: 0.3s;
+}
 
+.btn:hover {
+    background-color: transparent;
+    color: #8E9AAF;
+    box-shadow: none;
+}
 
 
 @media (max-width: 1250px) {

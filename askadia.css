@@ -441,5 +441,9 @@ footer .sub-footer p {
         color: black;
     }
 }
-
+@media(max-width:565px) {
+    .btn {
+        margin-bottom: 20px;
+    }
+}
 
